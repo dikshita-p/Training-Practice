@@ -57,3 +57,4 @@ SELECT
   first_name, last_name,payment_date
 FROM ranking
 WHERE rank = 2;
+
