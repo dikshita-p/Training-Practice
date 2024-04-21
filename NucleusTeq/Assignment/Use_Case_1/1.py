@@ -19,9 +19,6 @@ json_data = '''
     }
   ]
 }
-'''
-
-
 data = json.loads(json_data)
 for session in data.get('trainingSessions', []):
     print("Training Name:", session.get("name", "N/A"))
