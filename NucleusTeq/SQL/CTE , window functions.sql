@@ -1,5 +1,4 @@
 1: Using the table employees, show all the employees, their departments, salaries, and the average salary in their respective department. Order the result by department.
-
 WITH avg_salary AS (
         SELECT  AVG(salary) AS average_salary,department
         FROM employees
