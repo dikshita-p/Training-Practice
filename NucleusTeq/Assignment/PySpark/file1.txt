@@ -1,0 +1,3 @@
+This is a Sample Text file.
+This file is readed and a RDD is created.
+All the operation are done using Spark.
